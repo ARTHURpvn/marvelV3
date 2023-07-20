@@ -10,7 +10,7 @@ export default function Inicio() {
                     alt='Capa do FIlme'
                     width={950}
                     height={950}
-                    className='rounded-2xl'
+                    className='rounded-2xl shadow-md'
                     ></Image>
                 </figure>
 

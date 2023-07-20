@@ -1,6 +1,7 @@
 import Header from './header'
 import Inicio from './inicio'
 import Filme from './filmes'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <header>
         <Header/>
       </header>
-
+    
       <section className='mb-10'>
         <Inicio/> 
       </section>
@@ -32,6 +33,129 @@ export default function Home() {
           <Filme/>
           <Filme/>
         </nav>
+      </section>
+
+      <section className='grid grid-flow-col mt-16 mx-6'>
+        <nav className='w-96 p-3 dark:hover:bg-red-900'>
+          <figure className='w-full'>
+            <Image
+            src={'/captaMarvel2.jfif'}
+            alt='Capa do FIlme'
+            width={400}
+            height={400}
+            ></Image>
+          </figure>
+
+          <figcaption>
+            <h1 className='text-lg font-bold'>
+              Capitã Marvel
+            </h1>
+
+            <p className='dark:text-gray-400 font-light'>
+              Aqui vai ser um descrição, onde pode ser grande ou pequena
+            </p>
+          </figcaption>
+        </nav>
+
+        <nav className='w-96 p-3 dark:hover:bg-red-900'>
+          <figure className='w-full'>
+            <Image
+            src={'/captaMarvel2.jfif'}
+            alt='Capa do FIlme'
+            width={400}
+            height={400}
+            ></Image>
+          </figure>
+
+          <figcaption>
+            <h1 className='text-lg font-bold'>
+              Capitã Marvel
+            </h1>
+
+            <p className='dark:text-gray-400 font-light'>
+              Aqui vai ser um descrição, onde pode ser grande ou pequena
+            </p>
+          </figcaption>
+        </nav>
+
+        <nav className='w-96 p-3 dark:hover:bg-red-900'>
+          <figure className='w-full'>
+            <Image
+            src={'/captaMarvel2.jfif'}
+            alt='Capa do FIlme'
+            width={400}
+            height={400}
+            ></Image>
+          </figure>
+
+          <figcaption>
+            <h1 className='text-lg font-bold'>
+              Capitã Marvel
+            </h1>
+
+            <p className='dark:text-gray-400 font-light'>
+              Aqui vai ser um descrição, onde pode ser grande ou pequena
+            </p>
+          </figcaption>
+        </nav>
+      </section>
+
+      <section className='flex flex-col justify-center mt-16 mx-6'>
+        <div className='flex justify-center items-center gap-14'>
+          <nav>
+            <a href=''>
+              <Image
+              src={'/seta.png'}
+              alt='icone seta'
+              width={50}
+              height={50}
+              ></Image>
+            </a>
+          </nav>
+
+          <figure>
+            <Image
+            src={'/captaMarvel.jpg'}
+            alt='Capa do FIlme'
+            width={200}
+            height={200}
+            className="w-96 h-auto"
+            ></Image>
+          </figure>
+
+          <figure>
+            <Image
+            src={'/captaMarvel.jpg'}
+            alt='Capa do FIlme'
+            width={200}
+            height={200}
+            className="w-96 h-auto"
+            ></Image>
+          </figure>
+
+          <nav>
+            <a href="">
+              <Image
+              src={'/seta.png'}
+              alt='icone seta'
+              width={50}
+              height={50}
+              className='rotate-180'
+              ></Image>
+            </a>
+          </nav>
+        </div>
+
+        <div className='flex justify-center mt-6'>
+          <span className='flex gap-3'>
+            <input type='checkbox'  className='w-4 h-4'/>
+            <input type='checkbox'  className='w-4 h-4'/>
+            <input type='checkbox'  className='w-4 h-4'/>
+            <input type='checkbox'  className='w-4 h-4'/>
+            <input type='checkbox'  className='w-4 h-4'/>
+            <input type='checkbox'  className='w-4 h-4'/>
+          </span>
+        </div>
       </section>
     </div>
   )
