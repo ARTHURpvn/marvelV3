@@ -14,18 +14,18 @@ export default function Header() {
             </aside>
 
             <nav className='flex w-4/5 justify-between items-center'>
-                <input className='rounded-full w-2/6 text-slate-900 border border-slate-500 px-3 py-1' type="text" name="" placeholder='Pesquisar'/>
-                <nav className="w-1/4">
+                <input className='bg-transparent rounded-full w-2/6 dark:text-white text-slate-900 border border-slate-500 px-3 py-1' type="text" name="" placeholder='Pesquisar'/>
+                <nav className="w-auto">
 
-                    <ul className='flex justify-around'>
-                        <li><a href=""> Inicio </a></li>
-                        <li><a href=""> Descobrir </a></li>
-                        <li><a href=""> Lançamento </a></li>
+                    <ul className='grid grid-cols-3 gap-4'>
+                        <li><a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Inicio </a></li>
+                        <li><a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Descobrir </a></li>
+                        <li><a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Lançamento </a></li>
                     </ul>
                 </nav>
 
                 <nav className="flex nav-info w-1/6 justify-around items-center">
-                    <a href=""> Info </a>
+                    <a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Info </a>
 
                     <a href="">
                         <Image
