@@ -1,8 +1,9 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Header() {
     return (
-        <header className='w-full h-16 flex font-sans items-center fixed'>
+        <header className='w-full h-16 flex font-sans items-center fixed dark:bg-slate-800'>
             <aside className='w-1/5 flex justify-center'>
                 <Image
                 src={'/logoMarvel.png'}
@@ -18,9 +19,19 @@ export default function Header() {
                 <nav className="w-auto">
 
                     <ul className='grid grid-cols-3 gap-4'>
-                        <li><a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Inicio </a></li>
-                        <li><a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Descobrir </a></li>
-                        <li><a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Lançamento </a></li>
+                        <li> 
+                            <Link href="/page">
+                                <p className='hover:text-slate-900 dark:hover:text-slate-500'> Inicio </p>
+                            </Link> 
+                        </li>
+
+                        <li> 
+                            <Link href="/descobrir">
+                                <p className='hover:text-slate-900 dark:hover:text-slate-500'> Descobrir </p>
+                            </Link> 
+                        </li>
+                        
+                        <li><p className='hover:text-slate-900 dark:hover:text-slate-500'> Lançamento </p></li>
                     </ul>
                 </nav>
 

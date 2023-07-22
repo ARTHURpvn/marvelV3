@@ -100,17 +100,17 @@ export default function Home() {
         </nav>
       </section>
 
-      <section className='flex flex-col justify-center mt-16 mx-6'>
+      <section className='flex flex-col justify-center my-16 mx-6'>
         <div className='flex justify-center items-center gap-14'>
           <nav>
-            <a href=''>
+            <button>
               <Image
               src={'/seta.png'}
               alt='icone seta'
               width={50}
               height={50}
               ></Image>
-            </a>
+            </button>
           </nav>
 
           <figure>
@@ -134,7 +134,7 @@ export default function Home() {
           </figure>
 
           <nav>
-            <a href="">
+            <button>
               <Image
               src={'/seta.png'}
               alt='icone seta'
@@ -142,7 +142,7 @@ export default function Home() {
               height={50}
               className='rotate-180'
               ></Image>
-            </a>
+            </button>
           </nav>
         </div>
 
