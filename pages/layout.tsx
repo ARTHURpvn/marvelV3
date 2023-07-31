@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import 'tailwindcss/tailwind.css';
 
 export const metadata: Metadata = {
   title: 'Marvel',

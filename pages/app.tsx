@@ -1,11 +1,12 @@
-import Header from './header'
-import Inicio from './inicio'
-import Filme from './filmes'
-import Image from 'next/image'
+import Header from './header';
+import Inicio from './inicio';
+import Filme from './filmes';
+import Image from 'next/image';
+import 'tailwindcss/tailwind.css';
 
 export default function Home() {
   return (
-    <div className='bg-white dark:bg-slate-800 w-full h-full'>
+    <div className='bg-white dark:bg-slate-800 w-full h-full dark:text-gray-300'>
       <header>
         <Header/>
       </header>
@@ -36,7 +37,7 @@ export default function Home() {
       </section>
 
       <section className='grid grid-flow-col mt-16 mx-6'>
-        <nav className='w-96 p-3 dark:hover:bg-red-900'>
+        <nav className='w-96 p-3 hover:bg-gray-300 dark:hover:bg-red-900'>
           <figure className='w-full'>
             <Image
             src={'/captaMarvel2.jfif'}
@@ -57,7 +58,7 @@ export default function Home() {
           </figcaption>
         </nav>
 
-        <nav className='w-96 p-3 dark:hover:bg-red-900'>
+        <nav className='w-96 p-3 hover:bg-gray-300 dark:hover:bg-red-900'>
           <figure className='w-full'>
             <Image
             src={'/captaMarvel2.jfif'}
@@ -78,7 +79,7 @@ export default function Home() {
           </figcaption>
         </nav>
 
-        <nav className='w-96 p-3 dark:hover:bg-red-900'>
+        <nav className='w-96 p-3 hover:bg-gray-300 dark:hover:bg-red-900'>
           <figure className='w-full'>
             <Image
             src={'/captaMarvel2.jfif'}

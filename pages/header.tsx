@@ -1,9 +1,11 @@
 import Image from 'next/image';
-import Link from 'next/link'
+import Link from 'next/link';
+import 'tailwindcss/tailwind.css';
+
 
 export default function Header() {
     return (
-        <header className='w-full h-16 flex font-sans items-center fixed dark:bg-slate-800'>
+        <header className='w-full h-16 flex font-sans items-center fixed bg-white dark:bg-slate-800 dark:text-gray-300'>
             <aside className='w-1/5 flex justify-center'>
                 <Image
                 src={'/logoMarvel.png'}
@@ -20,7 +22,7 @@ export default function Header() {
 
                     <ul className='grid grid-cols-3 gap-4'>
                         <li> 
-                            <Link href="/page">
+                            <Link href="/app">
                                 <p className='hover:text-slate-900 dark:hover:text-slate-500'> Inicio </p>
                             </Link> 
                         </li>
