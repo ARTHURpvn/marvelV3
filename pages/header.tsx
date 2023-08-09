@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import 'tailwindcss/tailwind.css';
 
-
 export default function Header() {
     return (
         <header className='w-screen h-16 flex font-sans items-center fixed bg-white dark:bg-transparent dark:text-gray-300'>
@@ -34,7 +33,7 @@ export default function Header() {
                         </li>
                         
                         <li>
-                            <Link href="/series">
+                            <Link href="/apps">
                                 <p className='hover:text-slate-900 dark:hover:text-slate-500'> Lançamento </p>
                             </Link>
                         </li>
