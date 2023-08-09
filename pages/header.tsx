@@ -5,7 +5,7 @@ import 'tailwindcss/tailwind.css';
 
 export default function Header() {
     return (
-        <header className='w-full h-16 flex font-sans items-center fixed bg-white dark:bg-slate-800 dark:text-gray-300'>
+        <header className='w-screen h-16 flex font-sans items-center fixed bg-white dark:bg-transparent dark:text-gray-300'>
             <aside className='w-1/5 flex justify-center'>
                 <Image
                 src={'/logoMarvel.png'}
@@ -33,7 +33,11 @@ export default function Header() {
                             </Link> 
                         </li>
                         
-                        <li><p className='hover:text-slate-900 dark:hover:text-slate-500'> Lançamento </p></li>
+                        <li>
+                            <Link href="/series">
+                                <p className='hover:text-slate-900 dark:hover:text-slate-500'> Lançamento </p>
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
 
