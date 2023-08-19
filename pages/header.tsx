@@ -22,7 +22,7 @@ export default function Header() {
                     <ul className='grid grid-cols-3 gap-4'>
                         <li> 
                             <Link href="/app">
-                                <p className='hover:text-slate-900 dark:hover:text-slate-500'> Inicio </p>
+                                <p className='hover:text-slate-800 dark:hover:text-slate-500'> Inicio </p>
                             </Link> 
                         </li>
 
