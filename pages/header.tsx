@@ -6,13 +6,15 @@ export default function Header() {
     return (
         <header className='w-screen h-16 flex font-sans items-center fixed bg-white dark:bg-transparent dark:text-gray-300'>
             <aside className='w-1/5 flex justify-center'>
-                <Image
-                src={'/logoMarvel.png'}
-                alt='Logo Marvel'
-                width={160}
-                height={160}
-                className='logoMarvel'
-                ></Image>
+                <a href="/app">
+                    <Image
+                    src={'/logoMarvel.png'}
+                    alt='Logo Marvel'
+                    width={160}
+                    height={160}
+                    className='logoMarvel'
+                    ></Image>
+                </a>
             </aside>
 
             <nav className='flex w-4/5 justify-between items-center'>
@@ -33,7 +35,7 @@ export default function Header() {
                         </li>
                         
                         <li>
-                            <Link href="/apps">
+                            <Link href="/app">
                                 <p className='hover:text-slate-900 dark:hover:text-slate-500'> Lançamento </p>
                             </Link>
                         </li>
@@ -43,7 +45,7 @@ export default function Header() {
                 <nav className="flex nav-info w-1/6 justify-around items-center">
                     <a href="" className='hover:text-slate-900 dark:hover:text-slate-500'> Info </a>
 
-                    <a href="">
+                    <a href="/info">
                         <Image
                         src={'/perfil.jpg'}
                         alt='Logo Marvel'

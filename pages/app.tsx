@@ -38,66 +38,72 @@ export default function Home() {
 
       <section className='grid grid-flow-col mt-16 mx-6'>
         <nav className='w-96 p-3 hover:bg-gray-300 dark:hover:bg-red-900'>
-          <figure className='w-full'>
-            <Image
-            src={'/captaMarvel2.jfif'}
-            alt='Capa do FIlme'
-            width={400}
-            height={400}
-            ></Image>
-          </figure>
+          <a href="/series">
+            <figure className='w-full'>
+              <Image
+              src={'/captaMarvel2.jfif'}
+              alt='Capa do FIlme'
+              width={400}
+              height={400}
+              ></Image>
+            </figure>
 
-          <figcaption>
-            <h1 className='text-lg font-bold'>
-              Capitã Marvel
-            </h1>
+            <figcaption>
+              <h1 className='text-lg font-bold'>
+                Capitã Marvel
+              </h1>
 
-            <p className='dark:text-gray-400 font-light'>
-              Aqui vai ser um descrição, onde pode ser grande ou pequena
-            </p>
-          </figcaption>
+              <p className='dark:text-gray-400 font-light'>
+                Aqui vai ser um descrição, onde pode ser grande ou pequena
+              </p>
+            </figcaption>
+          </a>
         </nav>
 
         <nav className='w-96 p-3 hover:bg-gray-300 dark:hover:bg-red-900'>
-          <figure className='w-full'>
-            <Image
-            src={'/captaMarvel2.jfif'}
-            alt='Capa do FIlme'
-            width={400}
-            height={400}
-            ></Image>
-          </figure>
+        <a href="/series">
+            <figure className='w-full'>
+              <Image
+              src={'/captaMarvel2.jfif'}
+              alt='Capa do FIlme'
+              width={400}
+              height={400}
+              ></Image>
+            </figure>
 
-          <figcaption>
-            <h1 className='text-lg font-bold'>
-              Capitã Marvel
-            </h1>
+            <figcaption>
+              <h1 className='text-lg font-bold'>
+                Capitã Marvel
+              </h1>
 
-            <p className='dark:text-gray-400 font-light'>
-              Aqui vai ser um descrição, onde pode ser grande ou pequena
-            </p>
-          </figcaption>
+              <p className='dark:text-gray-400 font-light'>
+                Aqui vai ser um descrição, onde pode ser grande ou pequena
+              </p>
+            </figcaption>
+          </a>
         </nav>
 
         <nav className='w-96 p-3 hover:bg-gray-300 dark:hover:bg-red-900'>
-          <figure className='w-full'>
-            <Image
-            src={'/captaMarvel2.jfif'}
-            alt='Capa do FIlme'
-            width={400}
-            height={400}
-            ></Image>
-          </figure>
+          <a href="/series">
+            <figure className='w-full'>
+              <Image
+              src={'/captaMarvel2.jfif'}
+              alt='Capa do FIlme'
+              width={400}
+              height={400}
+              ></Image>
+            </figure>
 
-          <figcaption>
-            <h1 className='text-lg font-bold'>
-              Capitã Marvel
-            </h1>
+            <figcaption>
+              <h1 className='text-lg font-bold'>
+                Capitã Marvel
+              </h1>
 
-            <p className='dark:text-gray-400 font-light'>
-              Aqui vai ser um descrição, onde pode ser grande ou pequena
-            </p>
-          </figcaption>
+              <p className='dark:text-gray-400 font-light'>
+                Aqui vai ser um descrição, onde pode ser grande ou pequena
+              </p>
+            </figcaption>
+          </a>
         </nav>
       </section>
 
@@ -115,23 +121,27 @@ export default function Home() {
           </nav>
 
           <figure>
-            <Image
-            src={'/captaMarvel.jpg'}
-            alt='Capa do FIlme'
-            width={200}
-            height={200}
-            className="w-96 h-auto"
-            ></Image>
+            <a href="/series">
+              <Image
+              src={'/captaMarvel.jpg'}
+              alt='Capa do FIlme'
+              width={200}
+              height={200}
+              className="w-96 h-auto"
+              ></Image>
+            </a>
           </figure>
 
           <figure>
-            <Image
-            src={'/captaMarvel.jpg'}
-            alt='Capa do FIlme'
-            width={200}
-            height={200}
-            className="w-96 h-auto"
-            ></Image>
+            <a href="/series">
+              <Image
+              src={'/captaMarvel.jpg'}
+              alt='Capa do FIlme'
+              width={200}
+              height={200}
+              className="w-96 h-auto"
+              ></Image>
+            </a>
           </figure>
 
           <nav>
